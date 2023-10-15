@@ -1,0 +1,50 @@
+#root { 
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card {
+  min-width: clamp(120px, 25%, 150px);
+  justify-content: center;
+  align-items: center;
+  margin:0.5rem; 
+}
+.card p{
+  margin: 0.5rem;
+}
+.container1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.control-panel{
+  display: flex;
+}
+.control-panel button, .control-panel input{
+  margin: 0 10px;
+  display: inline-block;
+
+}
+.cells{
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cell{
+  margin: 5px;
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.cell h4{
+  padding-top: 0.5rem;
+}
+
+
